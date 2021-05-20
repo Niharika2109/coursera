@@ -1,0 +1,65 @@
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #D3D3D3;
+    border:2px solid black;
+}
+.navbar{
+	border:0px;
+	border-radius: 0px;
+	margin:0px;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Oxygen', sans-serif;
+
+}
+#mynavbar{
+	background-color: black;
+}
+.navbar-brand:hover{
+	color: white;
+}
+.navbar-brand a{
+	font-weight: bold;
+	font-size: 1.5em
+}
+.navbar-nav{
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+.item{
+	width: 100%;
+	background-color:#D3D3D3;
+	border-bottom: 1px solid black;
+	color: black;
+}
+.item:hover{
+	background-color:#D3D3D3;
+	color: rgba(0,0,0,0.4);
+}
+.container .text-center{
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 1.5em;
+}
+.row{
+	border:10px solid white;
+}
+#chicken,#beef,#sushi{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	border:20px solid white;
+	background-color: #D3D3D3;
+
+}
